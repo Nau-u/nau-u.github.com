@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nau's Playground</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nau</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#happy">Happy Me</a></li>
+                <li><a href="#encourage">Life Encouragers</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nau</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#happy" onclick="toggleMenu()">Happy Me</a></li>
+            <li><a href="#encourage" onclick="toggleMenu()">Life Encouragers</a></li>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./prof.jpg" alt="Nau's profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hallow Guise</p>
+            <h1 class="title">Naufaruu</h1>
+            <p class="section__text__p2">Ur beloved friend mwah.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"></button>
+            </div>
+            <div id="social-container">
+                <img src="./instagram.png" alt="logo instagram"
+                class="icon" onclick="location.href='https://www.instagram.com/urafuan_/'">
+                <img src="./spotify.png" alt="logo spotify"
+                class="icon" onclick="location.href='https://open.spotify.com/user/1qr0j9r457ojvrwjo54fgvrga'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <p class="section__text__p1">To be uploaded!</p>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details=container">
+                        <img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="happy">
+        <h1 class="title">Happy Me</h1>
+        <p class="section__text__p1">To be uploaded!</p>
+    </section>
+    <section id="encourage">
+        <h1 class="title">Life Encouragers</h1>
+        <p class="section__text__p1">Alasan masih hidup sampai saat ini</p>
+        <p class="section__text__p3">Female Bias</p>
+        <div class="bias">
+            <div class="detail-bias">
+                <div class="female-bias">
+                    <img src="./gaeul.jpg" alt="gaeul">
+                    <img src="./belle.jpg" alt="belle">
+                    <img src="./eunha.jpg" alt="eunha">
+                </div>
+            </div>
+        </div>
+        <p class="section__text__p4">Male Bias</p>
+        <div class="male-bias">
+            <img src="./woozi.jpg" alt="woozi">
+            <img src="./seungcheol.jpg" alt="seungcheol">        
+        </div>
+    </section> 
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#happy">Happy Me</a></li>
+                    <li><a href="#encourage">Life Encouragers</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Naufaruu.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
