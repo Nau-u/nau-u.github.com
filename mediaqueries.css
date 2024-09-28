@@ -1,8 +1,47 @@
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
+    }
+    .female-bias {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 700px;
+    }
+    
+    .male-bias {
+        display: flex;
+        justify-items: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 500px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    .female-bias {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 250px;
+    }
+    
+    .male-bias {
+        display: flex;
+        justify-items: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 30px;
     }
 }
