@@ -42,8 +42,10 @@
     .male-bias {
         display: flex;
         justify-content: center;
-        width: 28%;
-        height: 28%;
-        margin-left: 190px;
+        width: 100%; /* Atur sesuai kebutuhan */
+    }   
+    .male-bias img {
+        width: 43%; /* Sesuaikan ukuran gambar */
+        height: 40%;
     }
 }
