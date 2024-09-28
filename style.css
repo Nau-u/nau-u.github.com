@@ -230,22 +230,6 @@ section {
 
 /* Life Section */
 
-.female-bias {
-    display: flex;
-    text-align: left;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-}
-
-.male-bias {
-    display: flex;
-    text-align: left;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-}
-
 /* FOOTER */
 
 footer {
