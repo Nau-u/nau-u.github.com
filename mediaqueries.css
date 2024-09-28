@@ -48,4 +48,31 @@
         width: 30%; /* Sesuaikan ukuran gambar */
         height: 30%;
     }
+
+@media only screen and (max-width: 1080px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    .female-bias {
+        display: flex;
+        justify-content: center;
+        width: 100%; /* Atur sesuai kebutuhan */
+    }   
+    .female-bias img {
+        width: 43%; /* Sesuaikan ukuran gambar */
+        height: 40%;
+    }
+
+    .male-bias {
+        display: flex;
+        justify-content: center;
+        width: 100%; /* Atur sesuai kebutuhan */
+    }   
+    .male-bias img {
+        width: 42%; /* Sesuaikan ukuran gambar */
+        height: 40%;
+    }
 }
