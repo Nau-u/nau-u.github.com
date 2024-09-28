@@ -165,16 +165,25 @@ section {
 
 #profile {
     display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    flex-direction: column; /* Menjadikan susunan elemen vertikal */
+    align-items: center; /* Rata tengah */
+    text-align: center;
+    gap: 2rem; /* Jarak antar elemen */
+    height: 50%; /* Sesuaikan tinggi */
 }
+
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    justify-content: center;
+    height: 50%;
+}
+
+.section__pic-container img {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
 }
 
 .section__text {
@@ -183,7 +192,7 @@ section {
 }
 
 .section__text p {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .section__text__p1 {
@@ -196,14 +205,14 @@ section {
 }
 
 .section__text__p3 {
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
     color: pink;
 }
 
 .section__text__p4 {
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
     color: black;
@@ -229,6 +238,7 @@ section {
 }
 
 /* Life Section */
+
 
 /* FOOTER */
 
