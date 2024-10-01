@@ -18,7 +18,7 @@ const allSongs = [
         title: "Ditto",
         artist: "New Jeans",
         duration: "1:04",
-        src: "./record/ditto - newjeans.mp3",
+        src: "/record/ditto - newjeans.mp3",
     },
     {
         id: 1,
