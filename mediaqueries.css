@@ -71,7 +71,7 @@
         width: 100%; /* Atur sesuai kebutuhan */
     }   
     .male-bias img {
-        width: 52%; /* Sesuaikan ukuran gambar */
-        height: 50%;
+        width: 100%; /* Sesuaikan ukuran gambar */
+        height: 100%;
     }
 }
