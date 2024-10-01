@@ -61,8 +61,8 @@
         width: 100%; /* Atur sesuai kebutuhan */
     }   
     .female-bias img {
-        width: 33%; /* Sesuaikan ukuran gambar */
-        height: 30%;
+        width: 43%; /* Sesuaikan ukuran gambar */
+        height: 40%;
     }
 
     .male-bias {
@@ -71,7 +71,7 @@
         width: 100%; /* Atur sesuai kebutuhan */
     }   
     .male-bias img {
-        width: 32%; /* Sesuaikan ukuran gambar */
-        height: 30%;
+        width: 42%; /* Sesuaikan ukuran gambar */
+        height: 40%;
     }
 }
