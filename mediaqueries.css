@@ -73,5 +73,6 @@
     .male-bias img {
         width: 100%; /* Sesuaikan ukuran gambar */
         height: 100%;
+        margin-left: 50px;
     }
 }
