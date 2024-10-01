@@ -69,10 +69,10 @@
         display: flex;
         justify-content: center;
         width: 100%; /* Atur sesuai kebutuhan */
+        margin-left: 0px;
     }   
     .male-bias img {
         width: 50%; /* Sesuaikan ukuran gambar */
         height: 50%;
-        margin-left: 0px;
     }
 }
